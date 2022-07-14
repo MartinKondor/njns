@@ -4,7 +4,8 @@
   "description": "Neural Network library for react.js",
   "main": "dist/cjs/index.js",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "debug": "rollup -c && node dist/cjs/index.js" 
   },
   "repository": {
     "type": "git",
